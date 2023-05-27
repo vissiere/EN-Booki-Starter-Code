@@ -9,7 +9,7 @@
     --filter-bg-color: #DEEBFF;
 }
 
-.fa-solid {
+.fa-solid, .fa-regular {
     color: var(--main-color);
 }
 
@@ -53,21 +53,21 @@ body {
     color: var(--main-bg-color)
 }
 
-/****** Hebergements And Popular ***********/
-.hebergements-and-popular {
+/****** Accommodation And Popular ***********/
+.accommodation-and-popular {
     display: flex;
     justify-content: space-between;
 }
 
-.hebergements-and-popular section {
+.accommodation-and-popular section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
 }
 
-/****** Hebergements ***********/
-.hebergements {
+/****** Accommodation ***********/
+.accommodation {
     width: 65%;
 }
 
@@ -124,11 +124,11 @@ body {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-    .hebergements-and-popular {
+    .accommodation-and-popular {
         flex-direction: column;
     }
 
-    .hebergements {
+    .accommodation {
         width: 100%;
     }
 
