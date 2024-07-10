@@ -10,8 +10,12 @@
    
  .flex-container {
 
-    font-size: small;
-
+    font-size: small;}
+    
+.filter-select {
+    padding: 5px;
+    font-size: 1em;
+}
             
 
 :root {
