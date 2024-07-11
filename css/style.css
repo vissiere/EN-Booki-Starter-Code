@@ -16,11 +16,10 @@
     padding: 5px;
     font-size: 1em;
 }
-.info-section {
-    padding: 20px;
-    background-color: black
-    font-size: smaller 
-            
+.info {
+      font-size: 12px; /* Smaller font size */
+    color: #888888; /* Lighter color */
+}
 
 :root {
     --main-color: #0065FC;
